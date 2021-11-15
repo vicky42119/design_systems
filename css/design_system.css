@@ -130,31 +130,36 @@ a {
 
 h1, h2, h3, h4, h5, {
   font-family: 'Anton', sans-serif;
-    font-weight:1000;
+    font-weight:700;
   line-height:1;
 }
 
 h1 {
+  font-family: 'Anton', sans-serif;
   font-size:5rem;
   margin-bottom:1.25rem;
 
 }
 h2 {
+  font-family: 'Anton', sans-serif;
   font-size:3.375rem;
   margin-bottom:1.25rem;
 
 }
 h3 {
+  font-family: 'Anton', sans-serif;
   font-size:2.25rem;
   margin-bottom:1rem;
 
 }
 h4 {
+  font-family: 'Anton', sans-serif;
   font-size:1.5rem;
   margin-bottom:1rem;
 
 }
 h5 {
+  font-family: 'Anton', sans-serif;
   font-size:1;
   margin-bottom:.5rem;
 
