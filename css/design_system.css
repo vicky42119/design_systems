@@ -15,11 +15,13 @@ body {
 :root {
   --wf-gray: #434E59;
   --wf-light-gray: #E6ECF2;
-  --wf-bright-yellow: #F2BC1B;
-  --wf-medium-yellow: #CF9730;
-  --wf-medium-brown: #CF9730;
-  --wf-deep-brown: #736048;
-  --body-text-color: var(--wf-medium-brown);
+  --wf-Light-mint-green: #D1F2EB;
+  --wf-Medium-mint-green: #A3E4D7;
+  --wf-Medium-mint-green: #A3E4D7;
+  --wf-Dark-mint-green: #138D75;
+  --wf-black: #17202A;
+  --wf-white: #fff;
+  --body-text-color: var(--wf-Dark-mint-green);
 }
 
 /* Structure */
