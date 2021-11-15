@@ -19,8 +19,8 @@ body {
   --wf-Medium-mint-green: #A3E4D7;
   --wf-Medium-mint-green: #A3E4D7;
   --wf-Dark-mint-green: #138D75;
-  --wf-black: #17202A;
-  --wf-white: #fff;
+  --wf-Black: #17202A;
+  --wf-White: #fff;
   --body-text-color: var(--wf-Dark-mint-green);
 }
 
@@ -204,17 +204,20 @@ p, li {
     .color-light-gray {
     background-color: #E6ECF2;
   }
-    .color-bright-yellow {
-    background-color: #F2BC1B;
+    .color-Light-mint-grey {
+    background-color: #D1F2EB;
   }
-    .color-medium-yellow {
-    background-color: #CF9730;
+    .color-Medium-mint-green {
+    background-color: #A3E4D7
   }
-    .color-medium-brown {
-    background-color: #A66312;
+    .color-Medium-mint-green {
+      background-color: #A3E4D7
   }
-    .color-deep-brown {
-    background-color: #736048;
+    .color-Dark-mint-green {
+    background-color: #138D75;
+  }
+    .color-Black{
+    background-color: #17202A;
   }
 
 
@@ -265,7 +268,7 @@ p, li {
 /* -- buttons -- */
 
 .button {
-  background-color: #CF9730; 
+  background-color: #A3E4D7; 
   border: none;
   color: white;
   padding: 8px 32px;
@@ -280,36 +283,36 @@ p, li {
 }
 
 .button1 {
-  background-color: #CF9730; 
+  background-color: #A3E4D7; 
   color: white; 
 }
 
 .button1:hover {
-  background-color: #A66312;
+  background-color: #A3E4D7;
   color: white;
 }
 
 .button2 {
   background-color: white; 
-  color: #A66312; 
-  border: 2px solid #736048;
+  color: #138D75; 
+  border: 2px solid #17202A
 }
 
 .button2:hover {
   background-color: white; 
-  color: #A66312; 
-  border: 2px solid #F2B138;
+  color: #138D75; 
+  border: 2px solid #A3E4D7;
 }
 
 .button3 {
-  background-color: #736048; 
+  background-color: #17202A; 
   color: white; 
   opacity: 0.6;
   cursor: not-allowed;
 }
 
 .button3:hover {
-  background-color: #736048; 
+  background-color: #17202A; 
   color: white; 
   opacity: 0.6;
   cursor: not-allowed;
@@ -322,9 +325,9 @@ input[type=text] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 1px solid #F2B138;
+  border: 1px solid #A3E4D7;
   border-radius: 2px;
-  color: #A66312; 
+  color: #138D75; 
 
 }
 
@@ -332,7 +335,7 @@ input[type=text] {
 
 
 .dropbtn {
-  background-color: #736048; 
+  background-color: #17202A; 
   box-shadow: 3px 3px 2px 1px rgba(22, 22, 22, .4);
   color: white;
   padding: 16px;
@@ -369,7 +372,7 @@ input[type=text] {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #A66312;
+  background-color: #138D75;
 }
 
 /* -- switch -- */
@@ -413,11 +416,11 @@ input[type=text] {
 }
 
 input:checked + .slider {
-  background-color: #F2B138;
+  background-color: #A3E4D7;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #F2B138;
+  box-shadow: 0 0 1px #A3E4D7;
 }
 
 input:checked + .slider:before {
@@ -446,7 +449,7 @@ label {
 
 input {
     margin: .4rem 0;
-    border: 1px solid #F2B138;
+    border: 1px solid #A3E4D7;
 }
 
 .pointer{
@@ -459,7 +462,7 @@ input {
 .loader {
   border: 16px solid #ccc;
   border-radius: 50%;
-  border-top: 16px solid #F2B138;
+  border-top: 16px solid #A3E4D7;
   width: 100px;
   height: 100px;
   -webkit-animation: spin 2s linear infinite; /* Safari */
@@ -506,7 +509,7 @@ hr {
 
 /* Set a style for all buttons */
 button {
-  background-color: #CF9730;
+  background-color: #A3E4D7;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
