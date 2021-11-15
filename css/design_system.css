@@ -673,8 +673,6 @@ form.example::after {
   font-size: 36px; /* Increased font-size */
 }
 
-.icon-bar a:hover {
-  background-color: #000; /* Add a hover color */
 }
 
 .active {
