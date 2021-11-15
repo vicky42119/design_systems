@@ -673,6 +673,8 @@ form.example::after {
   font-size: 36px; /* Increased font-size */
 }
 
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
 }
 
 .active {
@@ -748,10 +750,10 @@ button {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #138D75;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+  width: 50%;
   font-size: 18px;
 }
 
