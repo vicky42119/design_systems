@@ -704,9 +704,9 @@ tr:nth-child(even) {
 }
 
 .fa-check {
-  color: green;
+  color: #138D75;
 }
 
 .fa-remove {
-  color: red;
+  color: #555;
 }
